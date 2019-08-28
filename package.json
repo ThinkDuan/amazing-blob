@@ -1,47 +1,22 @@
 {
   "name": "amazing-blob",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "a blob",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "test"
   },
-  "dependencies": {
-    "marked": "^0.5.2",
-    "vue": "^2.5.17"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThinkDuan/amazing-blob.git"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+  "keywords": [
+    "blob"
+  ],
+  "author": "duanxinxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThinkDuan/amazing-blob/issues"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "homepage": "https://github.com/ThinkDuan/amazing-blob#readme"
 }
